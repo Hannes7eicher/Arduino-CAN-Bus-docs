@@ -14,7 +14,7 @@ The library serves all boards and it therefore has two examples for both CAN and
     - [UNO R4 Minima](https://docs.arduino.cc/hardware/uno-r4-minima): 1 CAN interface (CAN)
 
     - [UNO R4 WiFi](https://docs.arduino.cc/hardware/uno-r4-wifi): 1 CAN interface (CAN)
-    
+
     - [Portenta C33](https://docs.arduino.cc/hardware/portenta-c33): 2 CAN interfaces (CAN and CAN1)
 
 - Ability to initialize and configure the CAN hardware with different bit rates.
@@ -27,7 +27,7 @@ The library serves all boards and it therefore has two examples for both CAN and
 
 ## Usage
 
-**Reading CAN Messages**
+### Reading CAN Messages
 
 To read CAN messages from the CAN bus, use the following steps:
 
@@ -66,7 +66,7 @@ void loop()
 }
 ```
 
-**Writing CAN Messages**
+### Writing CAN Messages
 
 To write CAN messages on the CAN bus, follow these steps:
 
